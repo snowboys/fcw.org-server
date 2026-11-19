@@ -7,7 +7,7 @@ on:
 
 jobs:
   normal:
-    runs-on: ubuntu-18.04
+    runs-on: instabox-medium
     steps:
       - name: check out Freeciv-web
         uses: actions/checkout@v2
